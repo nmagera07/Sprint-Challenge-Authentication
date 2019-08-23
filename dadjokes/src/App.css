@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background: gray;
+  height: 1500px;
+}
+
+.main-body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70px;
+  align-items: center;
+  background: rgb(56, 130, 199);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.nav-bar a {
+  color: purple;
+  font-size: 18px;
+}
+
+.nav-bar button {
+  background: rgb(56, 130, 199);
+  color: purple;
+  border: none;
+  font-size: 18px;
+}
+
+.home-page img {
+  width: 800px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.jokes-box {
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+
+.jokes {
+  margin: 10px;
+  font-size: 16px;
+}
